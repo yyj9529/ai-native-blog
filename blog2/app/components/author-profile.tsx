@@ -29,6 +29,7 @@ export const AuthorProfile = ({ author }: { author: Author }) => {
                   href={author.social.github}
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label={`Visit ${author.name}'s GitHub profile`}
                   className="text-sm text-blue-600 hover:underline dark:text-blue-400"
                 >
                   GitHub
@@ -39,6 +40,7 @@ export const AuthorProfile = ({ author }: { author: Author }) => {
                   href={author.social.twitter}
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label={`Follow ${author.name} on Twitter`}
                   className="text-sm text-blue-600 hover:underline dark:text-blue-400"
                 >
                   Twitter
@@ -49,6 +51,7 @@ export const AuthorProfile = ({ author }: { author: Author }) => {
                   href={author.social.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label={`Connect with ${author.name} on LinkedIn`}
                   className="text-sm text-blue-600 hover:underline dark:text-blue-400"
                 >
                   LinkedIn
